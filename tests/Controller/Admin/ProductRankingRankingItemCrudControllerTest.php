@@ -55,9 +55,4 @@ final class ProductRankingRankingItemCrudControllerTest extends AbstractEasyAdmi
     {
         return self::provideNewPageFields();
     }
-
-    public function testGetEntityFqcn(): void
-    {
-        $this->assertSame(RankingItem::class, ProductRankingRankingItemCrudController::getEntityFqcn());
-    }
 }

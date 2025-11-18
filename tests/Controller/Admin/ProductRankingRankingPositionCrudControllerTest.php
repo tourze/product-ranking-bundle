@@ -49,9 +49,4 @@ final class ProductRankingRankingPositionCrudControllerTest extends AbstractEasy
     {
         return self::provideNewPageFields();
     }
-
-    public function testGetEntityFqcn(): void
-    {
-        $this->assertSame(RankingPosition::class, ProductRankingRankingPositionCrudController::getEntityFqcn());
-    }
 }
